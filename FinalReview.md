@@ -12,11 +12,28 @@
 
 ### 2's Complement (Signed Negative Binary Integers)
 
-* When the first bit of a signed integer is set to 1, that indicates that the number is negative. To convert a negative number from binary to decimal is a 3 step process.
+When the first bit of a signed integer is set to 1, that indicates that the number is negative. To convert a negative number from binary to decimal is a 3 step process.
+
+* __Step 1:__ Flip all the bits.
+* __Step 2:__ Add 1.
+* __Step 3:__ Convert to decimal with negative sign
+
+#### <u>Example</u>
+
+Imagine you're given the signed 8-bit integer 10010011:
+
+* Step 1: $10010011 \rightarrow 01101100$
+* Step 2: $01101100 \rightarrow 01101101$
+* Step 3: $01101101 \rightarrow$ -0x6D or -109
 
 ### Masking
 
-*
+Masking is when you do a binary operation against an integer to change certain bits the way you want while leaving the other bits untouched.  
+This is done in 3 key ways:
+
+* Set bits to 0: __AND__ with 0. Leave other bits as 1.
+* Set bits to 1: __OR__ with 1.
+* Toggle bits to opposite: __XOR__ with 1.
 
 ## Floating Points (C++ prefix float/double)
 
