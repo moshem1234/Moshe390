@@ -2,6 +2,8 @@
 
 ## Midterm Review
 
+__[Pre-Exam 1 Overview](<https://github.com/StevensDeptECE/CPE390/blob/da6e657ecb94dde9f7d933c36bf17c1f2165540e/2023S/08/03overview.md>)__
+
 ### Old Exams
 
 * [Quizzes](<https://drive.google.com/drive/folders/1WC4z32oGymO6v-sJv2cMaFoiRggWHidV>)
