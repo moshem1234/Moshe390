@@ -14,6 +14,10 @@
 
 * When the first bit of a signed integer is set to 1, that indicates that the number is negative. To convert a negative number from binary to decimal is a 3 step process.
 
+### Masking
+
+*
+
 ## Floating Points (C++ prefix float/double)
 
 ### <u>Basics</u>
