@@ -90,13 +90,13 @@ Will avoid that issue because 0.125 is $\frac{1}{8}$ and therefore fits the qual
 8 8.125 8.25 8.375 8.5 8.625 8.75 8.875 9 9.125 9.25 9.375 9.5 9.625 9.75 9.875 10
 ```
 
-### <u>inf and nan</u>
+### inf and nan
 
 A value becomes 'inf' when the operation is impossible and $\displaystyle{\lim_{x \to 0}} = \infty$ .
 
 A value becomes NaN when the equation result is either nonexistant or imaginary.
 
-#### Examples:
+#### Examples
 
 $\frac{n>0}{0} = inf$  
 $(n>0)*inf = inf$  
