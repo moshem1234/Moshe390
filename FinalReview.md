@@ -18,7 +18,7 @@ When the first bit of a signed integer is set to 1, that indicates that the numb
 * __Step 2:__ Add 1.
 * __Step 3:__ Convert to decimal with negative sign
 
-#### <u>Example</u>
+#### Example
 
 Imagine you're given the signed 8-bit integer 10010011:
 
@@ -37,7 +37,7 @@ This is done in 3 key ways:
 
 ## Floating Points (C++ prefix float/double)
 
-### <u>Basics</u>
+### Basics
 
 First value: Sign; 1 for negative, 0 for positive (1 bit)  
 Exponent: Determines decimal placement; $2^{exponent-127}$ (8 bits)  
@@ -47,7 +47,7 @@ Above values are for a 'float' value. A 'double' value will have 11 bits for the
 
 [Useful tool for exploring floating points](<https://www.h-schmidt.net/FloatConverter/IEEE754.html>)
 
-### <u>Roundoff</u>
+### Roundoff
 
 When a decimal doesn't fit perfectly into the form of $2^{-n}$, the floating point loses it's ability to keep the number perfectly exact. This leads to __roundoff__. This can be best seen by example:
 
@@ -96,7 +96,7 @@ A value becomes 'inf' when the operation is impossible and $\displaystyle{\lim_{
 
 A value becomes NaN when the equation result is either nonexistant or imaginary.
 
-#### <u>Examples:</u>
+#### Examples:
 
 $\frac{n>0}{0} = inf$  
 $(n>0)*inf = inf$  
