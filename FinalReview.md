@@ -99,31 +99,3 @@ $c_1\*x\*c_2 \Longrightarrow (c_1\*c_2)\*x$
 $c_1\*\frac{x}{c_2} \Longrightarrow (\frac{c_1}{c_2})\*x$  
 $c_1\*x+c_2\*x+c_3\*x\Longrightarrow(c_1+c_2+c_3)\*x$  
 $c_1\*x^4+c_2\*x^3+c_3\*x^2+c_4\*x+c_5\Longrightarrow (((c_1\*x+c_2)\*x+c_3)\*x+c_4)\*x+c_5$ (Horner's Form)
-
-## Need to go over
-
-### What is MysterySum
-
-```cc
-float mysterysum(float n){
-    // sum of 1/ 1^2 + 1/2^2 +.... 
-    float sum;
-    for (float i = 1; i <= n; i++)
-        sum += 1/(i*i);
-    return sqrt(6*sum);
-}
-```
-
-### Lea and Char on Final
-
-```cc
-uint64_t f = x * 5; // lea (%rcx, %rcx,4), %rax  ==> rcx + 4rcx = rax
-
-// return the sum of all the ASCII values of the letters in the array
-uint32_t checksum(char arr[], uint64_t len) {}
-// movb (%rcx), %r8
-
-// encrypt the string by xoring with key
-void xorcrypt(char arr[], uint64_t len, char key) {}
-//"my secret message",     'x'
-```
