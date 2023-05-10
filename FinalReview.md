@@ -117,7 +117,7 @@ $nan + n\ |\ nan - n\ |\ nan * n\ |\ nan \div n = nan$
 
 $x \*2^n\Longrightarrow x << n$  
 $x \div 2^n \Longrightarrow x >> n$  
-$i\ \\%\ 2^n \Longrightarrow i\ \\& \ (2^n-1) $  
+$x\ \\%\ 2^n \Longrightarrow x\ \\& \ (2^n-1) $  
 $c_1\*x\*c_2 \Longrightarrow (c_1\*c_2)\*x$  
 $c_1\*\frac{x}{c_2} \Longrightarrow (\frac{c_1}{c_2})\*x$  
 $c_1\*x+c_2\*x+c_3\*x\Longrightarrow(c_1+c_2+c_3)\*x$  
