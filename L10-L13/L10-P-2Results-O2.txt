@@ -1,0 +1,24 @@
+count up from 0 to n-1 :	258	236	253	
+count n downto 1       :	257	344	348	
+count n downto 1       :	336	330	335	
+sum numbers 1 to n     :	661	656	651	
+product numbers 1 to n :	1139	983	974	
+sum of fractions       :	8136	8157	8343	
+read in 64-bit numbers :	234	84	69	
+read 64-bit every 2    :	114	116	121	
+read 64-bit k=4        :	217	276	284	
+read 64-bit k=8        :	668	567	594	
+read 64-bit k=16       :	1069	1285	1291	
+read 64-bit k=32       :	1583	1416	1500	
+read 64-bit k=1k       :	2104	2457	2106	
+write 64-bit seq       :	191	173	177	
+write 64-bit k=2       :	177	178	172	
+write 64-bit k=4       :	346	348	351	
+write 64-bit k=8       :	752	760	758	
+write 64-bit k=16      :	1374	1405	1419	
+write 64-bit k=32      :	1923	1843	1907	
+write 64-bit k=1024    :	2612	2654	2606	
+nxbel+nxbel+:98
+testing testing 123
+encoded using DOV:    xixebk,xixebk,=>?
+decoded using DOV:    testing testing 123

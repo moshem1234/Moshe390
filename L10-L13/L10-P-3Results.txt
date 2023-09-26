@@ -1,0 +1,10 @@
+Elapsed (1): 81358
+Answer (1): 1962026240
+
+Elapsed (2): 2492
+Answer (2): 1962026240
+Due to Intel intrinsics with 32 bits, the same code ran over 32 times faster!!!
+
+Elapsed (3): 2328
+Answer (3): 1962026240
+Due to Intel intrinsics using 64 bits, the same code ran over 34 times faster!!!
